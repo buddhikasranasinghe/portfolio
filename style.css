@@ -1,3 +1,262 @@
-.background{
-	background-color: rgb(6, 2, 59);
+.background {
+    background-color: rgb(4, 1, 20);
+}
+
+.name {
+    color: white;
+    /*color: #ffe59f;*/
+    font-size: 500%;
+    padding-left: 10px;
+    font-family: 'Croissant One';
+}
+
+.name-panel {
+    margin-top: 27%;
+}
+
+.ruler {
+    border-left: 10px solid #9fffd7;
+    /*#1cfc9f;*/
+    border-radius: 5px;
+}
+
+.more {
+    border: 2px solid #fab216;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.more-text {
+    color: white;
+}
+
+.more:hover {
+    background-color: #fab216;
+    transition: .7s ease-out;
+    background: linear-gradient(to right, rgb(4, 1, 20) 50%, #fab216 50%) right;
+    background-size: 200%;
+}
+
+.aboutme {
+    font-family: 'Croissant One';
+    font-size: 500%;
+    margin-top: 5%;
+    color: #9fffd7;
+    text-align: center;
+}
+
+.circle_one {
+    background-color: #b8b8b885;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -10;
+    left: 54%;
+    top: 5%
+}
+
+.switch {
+    background-color: #fab216;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.switch i {
+    color: rgb(4, 1, 20);
+}
+
+.mynav {
+    padding-top: 20px;
+}
+
+.mynav a {
+    color: white;
+}
+
+.mynav a:hover {
+    color: #1cfc9f;
+}
+
+.skilltext{
+    color: white; 
+    text-align: center;
+}
+
+.mybutton{
+    border: 2px solid yellow; 
+    border-radius: 50px;
+}
+
+.mysecondimage{
+    width: 70%; 
+    height: auto; 
+    margin-left: auto; 
+    border: 10px solid white; 
+    border-radius: 10px;
+}
+
+.mysecondimage-panel{
+    text-align: right;
+}
+
+.subheading{
+    color: #9FFFD7; 
+    padding-left: 10px; 
+    margin-bottom: 0px; 
+    background-color: rgb(4, 1, 20); 
+    text-align: center; 
+    font-family: Croissant One; 
+    font-size: 200%;
+}
+
+.persentage{
+    font-weight: bold;
+}
+
+.subtext_qualification{
+    color: gray; 
+    padding-left: 20px;   
+}
+
+.year_qualification{
+    color: white; 
+    background-color: gray; 
+    border-radius: 50px; 
+    padding: 5px;
+}
+
+.line_qualification{
+    padding-top: 30px; 
+    border-left: 3px solid yellow; 
+    position: relative; 
+    z-index:10; 
+    left: 19px; 
+    top:-7px
+}
+
+.parenttext_qualification{
+    color: white; 
+    padding-left: 20px;
+}
+
+.parenttext_qualification span{
+    color: gray; 
+    font-size: 80%;
+}
+
+.icondiv_qualification{
+    background-color: yellow; 
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+    display: inline-block; 
+    text-align: center; 
+    padding-top: 6px;
+}
+
+.qulification_panel{
+    padding-top: 30px;
+}
+
+.contact_input{
+    border-radius: 50px !important; 
+    font-family: Averia Serif Libre;
+    background: transparent !important;   
+    /*opacity: 0.1;*/
+    /*color: white !important;*/
+    /*text-decoration-color: white !important;*/
+}
+
+.contact_textarea{
+    border-radius: 20px !important;
+    background: transparent !important;
+    font-family: veria Serif Libre;
+}
+
+.contact_icon{
+    background-color: yellow; 
+    width: 45px; 
+    height: 45px; 
+    border-radius: 50%;
+    display: inline-block;
+}
+
+@media (max-width: 320px) {
+    .name,
+    .aboutme {
+        font-size: 150%;
+    }
+    .name-panel {
+        margin-left: 20%;
+    }
+    .more {
+        margin-left: 20%;
+    }
+    .circle_one {
+        display: none;
+    }
+    .mysecondimage-panel{
+        text-align: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .name,
+    .aboutme {
+        font-size: 150%;
+    }
+    .name-panel {
+        margin-left: 20%;
+    }
+    .more {
+        margin-left: 20%;
+    }
+    .circle_one {
+        display: none;
+    }
+    .mysecondimage-panel{
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .name,
+    .aboutme {
+        font-size: 150%;
+    }
+    .name-panel {
+        margin-left: 20%;
+    }
+    .more {
+        margin-left: 20%;
+    }
+    .circle_one {
+        display: none;
+    }
+    .mysecondimage-panel{
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .name {
+        font-size: 250%;
+    }
+    .name-panel {
+        margin-left: 20%;
+    }
+    .more {
+        margin-left: 20%;
+    }
+    .circle_one {
+        width: 150px;
+        height: 150px;
+        left: 59%;
+        top: 7%;
+    }
 }
